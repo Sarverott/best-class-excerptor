@@ -43,7 +43,7 @@ class schoolContainer{
           rankGapCount=0;
         }
       }
-      tmp[i].place=(tmp.length-rankTmp)*this.multiplier;
+      tmp[i].place=(tmp.length-rankTmp);
     }
     delete tmp;
   }
