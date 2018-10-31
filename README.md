@@ -10,6 +10,6 @@ application for calculation Superclass contest - turnament of classes witch one 
 * [Git](https://git-scm.com/) - version controll system
 
 LINKS:
-* previous project - [SuperClass2018](https://github.com/Sarverott/SuperClass2018)
-* Sl.TZN in Katowice - [sltzn.katowice.pl](http://sltzn.katowice.pl/)
-* my website - [sett.beep.pl](http://sett.beep.pl/)
+- previous project - [SuperClass2018](https://github.com/Sarverott/SuperClass2018)
+- Sl.TZN in Katowice - [sltzn.katowice.pl](http://sltzn.katowice.pl/)
+- my website - [sett.beep.pl](http://sett.beep.pl/)
