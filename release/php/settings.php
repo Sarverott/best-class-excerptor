@@ -39,5 +39,12 @@
       "user"=>"",
       "password"=>"",
       "database"=>""
+    ),
+    "administration"=>array(
+      "provigiles"=>array(
+        "addUser"=>8,
+        "removeUser"=>8,
+        "showUsers"=>7
+      )
     )
   );

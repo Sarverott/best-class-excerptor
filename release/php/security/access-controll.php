@@ -5,14 +5,21 @@
     private function initSession(){
       session_start();
     }
-    private function setupAccess($user, $level){
-
+    public function setupAccess($id, $user, $level){
+      $_SESSION['access']=array(
+        "id"=>$id,
+        "user"=>$user,
+        "level"=>$level
+      );
+    }
+    public function resetAccess(){
+      unset($_SESSION['access']);
     }
     private function endSession(){
       session_destroy();
     }
-    public function checkAccess(){
-
+    public function getAccess(){ 
+      return $_SESSION['access'];
     }
     public function __construct($app){
       $this->app=$app;
